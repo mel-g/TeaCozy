@@ -83,6 +83,39 @@ a {
 
 /* featured tea styles */
 
+#featured-tea {
+	
+	max-width: 1000px;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.teas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#featured-tea img {
+	height: 200px;
+	width: 300px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+.tea-header {
+	display: block;
+}
+
+figure {
+	padding: 10px;
+	margin: 0;
+}
+
+#featured-tea figcaption {
+	font-weight: bold;
+}
+
 /* location styles */
 
 /* contact styles */
