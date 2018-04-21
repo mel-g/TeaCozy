@@ -63,6 +63,7 @@ a {
 .content {
 	padding-top: 69px;
 	margin-top: -10px;
+	min-width: 1200px;
 }
 
 /* mission styles */
@@ -89,6 +90,7 @@ a {
 	max-width: 1000px;
 	flex-wrap: wrap;
 	margin: auto;
+	padding: 75px;
 }
 
 .teas {
