@@ -61,7 +61,8 @@ a {
 
 /* main content styles */
 .content {
-	padding-top: 100px;
+	padding-top: 69px;
+	margin-top: -10px;
 }
 
 /* mission styles */
@@ -118,6 +119,44 @@ figure {
 
 /* location styles */
 
+#locations {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background-image: url(../images/img-locations-background.jpg);
+	background-size: cover;
+	height: 500px;
+	
+}
+
+#locations h2 {
+	flex-basis: 100%;
+	display: block;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.address {
+	width: 300px;
+	background-color: black;
+	margin: 40px;
+	padding: 10px;
+	margin-top: 15px;
+	opacity: 1;
+}
+
+
 /* contact styles */
 
+.contact {
+	height: 200px;
+}
+
 /* footer styles */
+
+.footer {
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+}
